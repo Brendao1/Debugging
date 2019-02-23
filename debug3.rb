@@ -1,5 +1,5 @@
 def factorial(n)
-  product = n  # start with product= n
+  product = n
   p "at the start product is #{n}"
   while n > 1
     n -= 1
@@ -11,7 +11,7 @@ def factorial(n)
 end
 
 factorial(5)
+
 # Intended output:
-#
 # > factorial(5)
 # => 120

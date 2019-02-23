@@ -16,7 +16,7 @@ def encode(plaintext, key)
       # the last output for this operation is nil. So here is the error.
     p (65 + cipher.find_index(char)).chr # '+' nil can't be coerced into Integer TypeError
     # this prints out a letter for each elemet, but the error says error is 'block in encode'
-    
+
   end
   ciphertext_chars.join
 end
